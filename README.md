@@ -1,5 +1,7 @@
-# InstaYa - Aplicación de Servidor
 
+# InstaYa - Aplicación de Servidor
+usuarios: heidivics14gmail.com   clave:12345
+heidicuninorte.edu.co   clave:12345
 ## Dependencias:
 
 Esta aplicación web (de lado del servidor), se encuentra desarrollada con las siguientes tecnologías:

@@ -9,6 +9,7 @@ import { env } from '@config/env';
 import { AuthRouter } from './controllers/auth';
 import { UserRouter } from './controllers/user';
 import { RequestRouter } from './controllers/request';
+//import { UpdateRouter } from './controllers/update';
 
 const router = express.Router();
 
@@ -31,5 +32,6 @@ router.use(morgan('combined', { stream: logStream }));
 router.use('/auth', AuthRouter);
 router.use('/user', UserRouter);
 router.use('/request', RequestRouter);
+//router.use('/update', UpdateRouter);
 
 export { router };
